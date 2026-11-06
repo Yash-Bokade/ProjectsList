@@ -8,7 +8,7 @@ type Project = {
   id: string;
   number: string;
   title: string;
-  type: "Digital" | "Editorial" | "Experimental";
+  type: "Digital" | "Editorial" | "Experimental" | "Entertainment";
   year: string;
   summary: string;
   role: string;
@@ -460,12 +460,12 @@ export default function App() {
         </div>
       </section>
 
-      <section className="about-strip" id="about">
+      <section className="about-strip h-full" id="about">
         <p>Not just making things look good.</p>
         <h2>
           I help turn <em>good ideas</em> into memorable experiences.
         </h2>
-        <a href="mailto:hello@example.com">
+        <a href="mailto:yash.mahendra.bokade@gmail.com">
           Let’s make something <ArrowIcon />
         </a>
       </section>
@@ -473,12 +473,17 @@ export default function App() {
       <footer>
         <div>
           <span>Local time</span>
-          <strong>London, UK</strong>
+          <strong>Pune, IN</strong>
         </div>
-        <p>Alex Morgan — Independent designer & creative developer</p>
+        <div>
+          <p>Yash Bokade — CSE Student</p>
+          <p>I Use AI</p>
+        </div>
         <div className="socials">
-          <a href="#instagram">Instagram</a>
-          <a href="#linkedin">LinkedIn</a>
+          <a href="https://www.instagram.com/yashbokade11">Instagram</a>
+          <a href="https://www.linkedin.com/in/yash-mahendra-bokade/">LinkedIn</a>
+          <a href="https://github.com/Yash-Bokade">Github</a>
+          <a href="https://codeberg.org/yash_bokade">CodeBerg</a>
         </div>
         <a className="to-top" href="#top" aria-label="Back to top">
           ↑
