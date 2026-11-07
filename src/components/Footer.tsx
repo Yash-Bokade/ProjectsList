@@ -10,10 +10,10 @@ export function Footer() {
         <p>I Use AI</p>
       </div>
       <div className="socials">
-        <a href="https://www.instagram.com/yashbokade11">Instagram</a>
-        <a href="https://www.linkedin.com/in/yash-mahendra-bokade/">LinkedIn</a>
-        <a href="https://github.com/Yash-Bokade">Github</a>
-        <a href="https://codeberg.org/yash_bokade">CodeBerg</a>
+        <a href="https://www.instagram.com/yashbokade11" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/yash-mahendra-bokade/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Yash-Bokade" target="_blank">Github</a>
+        <a href="https://codeberg.org/yash_bokade" target="_blank">CodeBerg</a>
       </div>
       <a className="to-top" href="#top" aria-label="Back to top">
         ↑

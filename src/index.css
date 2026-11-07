@@ -76,14 +76,14 @@ main {
 
 .wordmark {
   width: max-content;
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 600;
   letter-spacing: -0.08em;
 }
 
 .wordmark span {
-  margin-left: 3px;
-  vertical-align: top;
+  margin-left: 8px;
+  vertical-align: text-bottom;
   font: 400 7px "DM Mono";
 }
 
@@ -138,6 +138,9 @@ main {
 
 .hero {
   width: min(100% - 64px, 1440px);
+  height: 80dvh; /* MSG TO FIGMA MAKE --> make the hero only show some part of the next elements here <ProjectArchive /> from app.tsx
+    now you what you should do is make the use of the whitespace
+    */
   margin: auto;
   padding: 56px 0 82px;
 }

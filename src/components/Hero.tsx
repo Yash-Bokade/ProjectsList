@@ -2,8 +2,8 @@ export function Hero() {
   return (
     <section className="hero" id="top">
       <div className="eyebrow">
-        <span>Selected work</span>
-        <span>2022—2025</span>
+        <span>My work</span>
+        <span>2023—2026</span>
       </div>
       <h1>
         Projects with
